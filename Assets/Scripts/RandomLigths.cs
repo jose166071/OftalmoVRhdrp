@@ -46,7 +46,7 @@ public class RandomLigths : MonoBehaviour
             a = _diez2;
         }
 
-        for (int i = 0; i < 76; i++)
+        for (int i = 0; i < a.transform.childCount; i++)
         {
             var Stimuli = a.gameObject.transform.GetChild(i);
             //var Stimuli = program.transform.GetChild(i);
