@@ -350,6 +350,7 @@ GameObject:
   - component: {fileID: 3231607}
   - component: {fileID: 3231609}
   - component: {fileID: 3231608}
+  - component: {fileID: 3231610}
   m_Layer: 0
   m_Name: DefaultGoldmann III (14)
   m_TagString: Untagged
@@ -384,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -506,7 +507,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -556,6 +557,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &3231610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &4951034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,6 +1065,7 @@ GameObject:
   - component: {fileID: 18947058}
   - component: {fileID: 18947060}
   - component: {fileID: 18947059}
+  - component: {fileID: 18947061}
   m_Layer: 0
   m_Name: DefaultGoldmann III (31)
   m_TagString: Untagged
@@ -1084,7 +1100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -1206,7 +1222,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -1256,6 +1272,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &18947061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18947057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &27154850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,6 +2165,7 @@ GameObject:
   - component: {fileID: 79298605}
   - component: {fileID: 79298607}
   - component: {fileID: 79298606}
+  - component: {fileID: 79298608}
   m_Layer: 0
   m_Name: DefaultGoldmann III (32)
   m_TagString: Untagged
@@ -2169,7 +2200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -2291,7 +2322,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -2341,6 +2372,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &79298608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79298604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &102035841
 GameObject:
   m_ObjectHideFlags: 0
@@ -3003,6 +3048,7 @@ GameObject:
   - component: {fileID: 110151964}
   - component: {fileID: 110151966}
   - component: {fileID: 110151965}
+  - component: {fileID: 110151967}
   m_Layer: 0
   m_Name: DefaultGoldmann III (23)
   m_TagString: Untagged
@@ -3037,7 +3083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -3159,7 +3205,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -3209,6 +3255,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &110151967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110151963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &128973186
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,6 +3759,7 @@ GameObject:
   - component: {fileID: 189354322}
   - component: {fileID: 189354324}
   - component: {fileID: 189354323}
+  - component: {fileID: 189354325}
   m_Layer: 0
   m_Name: DefaultGoldmann III (65)
   m_TagString: Untagged
@@ -3733,7 +3794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -3855,7 +3916,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -3905,6 +3966,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &189354325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189354321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &204132202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4350,6 +4425,7 @@ GameObject:
   - component: {fileID: 224769848}
   - component: {fileID: 224769850}
   - component: {fileID: 224769849}
+  - component: {fileID: 224769851}
   m_Layer: 0
   m_Name: DefaultGoldmann III (59)
   m_TagString: Untagged
@@ -4384,7 +4460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -4506,7 +4582,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -4556,6 +4632,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &224769851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224769847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &245307201
 GameObject:
   m_ObjectHideFlags: 0
@@ -4567,6 +4657,7 @@ GameObject:
   - component: {fileID: 245307202}
   - component: {fileID: 245307204}
   - component: {fileID: 245307203}
+  - component: {fileID: 245307205}
   m_Layer: 0
   m_Name: DefaultGoldmann III (12)
   m_TagString: Untagged
@@ -4601,7 +4692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -4723,7 +4814,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -4773,6 +4864,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &245307205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245307201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &264462466
 GameObject:
   m_ObjectHideFlags: 0
@@ -5218,6 +5323,7 @@ GameObject:
   - component: {fileID: 301012856}
   - component: {fileID: 301012858}
   - component: {fileID: 301012857}
+  - component: {fileID: 301012859}
   m_Layer: 0
   m_Name: DefaultGoldmann III (36)
   m_TagString: Untagged
@@ -5252,7 +5358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -5374,7 +5480,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -5424,6 +5530,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &301012859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301012855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &305374198
 GameObject:
   m_ObjectHideFlags: 0
@@ -6303,6 +6423,7 @@ GameObject:
   - component: {fileID: 359631729}
   - component: {fileID: 359631731}
   - component: {fileID: 359631730}
+  - component: {fileID: 359631732}
   m_Layer: 0
   m_Name: DefaultGoldmann III (58)
   m_TagString: Untagged
@@ -6337,7 +6458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -6459,7 +6580,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -6509,6 +6630,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &359631732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359631728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &372198754
 GameObject:
   m_ObjectHideFlags: 0
@@ -6987,7 +7122,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 9dddee19f51bbc84b997ab012f730dbf, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 58b3a83713497f64488037257f239173, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 57d6ee4e4dccf5a47bd989daf7efe85d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7993,6 +8128,7 @@ GameObject:
   - component: {fileID: 428415396}
   - component: {fileID: 428415398}
   - component: {fileID: 428415397}
+  - component: {fileID: 428415399}
   m_Layer: 0
   m_Name: DefaultGoldmann III (55)
   m_TagString: Untagged
@@ -8027,7 +8163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -8149,7 +8285,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -8199,6 +8335,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &428415399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428415395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &432071498
 GameObject:
   m_ObjectHideFlags: 0
@@ -9380,6 +9530,7 @@ GameObject:
   - component: {fileID: 475527449}
   - component: {fileID: 475527451}
   - component: {fileID: 475527450}
+  - component: {fileID: 475527452}
   m_Layer: 0
   m_Name: DefaultGoldmann III (26)
   m_TagString: Untagged
@@ -9414,7 +9565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -9536,7 +9687,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -9586,6 +9737,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &475527452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475527448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &493522513
 GameObject:
   m_ObjectHideFlags: 0
@@ -9597,6 +9762,7 @@ GameObject:
   - component: {fileID: 493522514}
   - component: {fileID: 493522516}
   - component: {fileID: 493522515}
+  - component: {fileID: 493522517}
   m_Layer: 0
   m_Name: DefaultGoldmann III (61)
   m_TagString: Untagged
@@ -9631,7 +9797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -9753,7 +9919,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -9803,6 +9969,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &493522517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493522513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &501872201
 GameObject:
   m_ObjectHideFlags: 0
@@ -9814,6 +9994,7 @@ GameObject:
   - component: {fileID: 501872202}
   - component: {fileID: 501872204}
   - component: {fileID: 501872203}
+  - component: {fileID: 501872205}
   m_Layer: 0
   m_Name: DefaultGoldmann III (33)
   m_TagString: Untagged
@@ -9848,7 +10029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -9970,7 +10151,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -10020,6 +10201,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &501872205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501872201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &516499226
 GameObject:
   m_ObjectHideFlags: 0
@@ -10248,6 +10443,7 @@ GameObject:
   - component: {fileID: 518276158}
   - component: {fileID: 518276160}
   - component: {fileID: 518276159}
+  - component: {fileID: 518276161}
   m_Layer: 0
   m_Name: DefaultGoldmann III (51)
   m_TagString: Untagged
@@ -10282,7 +10478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -10404,7 +10600,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -10454,6 +10650,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &518276161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518276157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &526355930
 GameObject:
   m_ObjectHideFlags: 0
@@ -10682,6 +10892,7 @@ GameObject:
   - component: {fileID: 526552755}
   - component: {fileID: 526552757}
   - component: {fileID: 526552756}
+  - component: {fileID: 526552758}
   m_Layer: 0
   m_Name: DefaultGoldmann III (47)
   m_TagString: Untagged
@@ -10716,7 +10927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -10838,7 +11049,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -10888,6 +11099,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &526552758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526552754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &533832996
 GameObject:
   m_ObjectHideFlags: 0
@@ -11333,6 +11558,7 @@ GameObject:
   - component: {fileID: 552884881}
   - component: {fileID: 552884883}
   - component: {fileID: 552884882}
+  - component: {fileID: 552884884}
   m_Layer: 0
   m_Name: DefaultGoldmann III (28)
   m_TagString: Untagged
@@ -11367,7 +11593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -11489,7 +11715,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -11539,6 +11765,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &552884884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552884880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &555711408
 GameObject:
   m_ObjectHideFlags: 0
@@ -11657,6 +11897,7 @@ GameObject:
   - component: {fileID: 557442193}
   - component: {fileID: 557442195}
   - component: {fileID: 557442194}
+  - component: {fileID: 557442196}
   m_Layer: 0
   m_Name: DefaultGoldmann III (37)
   m_TagString: Untagged
@@ -11691,7 +11932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -11813,7 +12054,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -11863,6 +12104,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &557442196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557442192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &572141906
 GameObject:
   m_ObjectHideFlags: 0
@@ -11874,6 +12129,7 @@ GameObject:
   - component: {fileID: 572141907}
   - component: {fileID: 572141909}
   - component: {fileID: 572141908}
+  - component: {fileID: 572141910}
   m_Layer: 0
   m_Name: DefaultGoldmann III (46)
   m_TagString: Untagged
@@ -11908,7 +12164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -12030,7 +12286,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -12080,6 +12336,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &572141910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572141906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &578088287
 GameObject:
   m_ObjectHideFlags: 0
@@ -12091,6 +12361,7 @@ GameObject:
   - component: {fileID: 578088288}
   - component: {fileID: 578088290}
   - component: {fileID: 578088289}
+  - component: {fileID: 578088291}
   m_Layer: 0
   m_Name: DefaultGoldmann III (35)
   m_TagString: Untagged
@@ -12125,7 +12396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -12247,7 +12518,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -12297,6 +12568,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &578088291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578088287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &581874089
 GameObject:
   m_ObjectHideFlags: 0
@@ -12773,6 +13058,7 @@ GameObject:
   - component: {fileID: 589030209}
   - component: {fileID: 589030211}
   - component: {fileID: 589030210}
+  - component: {fileID: 589030212}
   m_Layer: 0
   m_Name: DefaultGoldmann III (48)
   m_TagString: Untagged
@@ -12807,7 +13093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -12929,7 +13215,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -12979,6 +13265,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &589030212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589030208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &606870704
 GameObject:
   m_ObjectHideFlags: 0
@@ -13424,6 +13724,7 @@ GameObject:
   - component: {fileID: 626856983}
   - component: {fileID: 626856985}
   - component: {fileID: 626856984}
+  - component: {fileID: 626856986}
   m_Layer: 0
   m_Name: DefaultGoldmann III (3)
   m_TagString: Untagged
@@ -13458,7 +13759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -13580,7 +13881,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -13630,6 +13931,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &626856986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626856982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &632057832
 GameObject:
   m_ObjectHideFlags: 0
@@ -13641,6 +13956,7 @@ GameObject:
   - component: {fileID: 632057833}
   - component: {fileID: 632057835}
   - component: {fileID: 632057834}
+  - component: {fileID: 632057836}
   m_Layer: 0
   m_Name: DefaultGoldmann III (22)
   m_TagString: Untagged
@@ -13675,7 +13991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -13797,7 +14113,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -13847,6 +14163,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &632057836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632057832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &647134842
 GameObject:
   m_ObjectHideFlags: 0
@@ -13858,6 +14188,7 @@ GameObject:
   - component: {fileID: 647134843}
   - component: {fileID: 647134845}
   - component: {fileID: 647134844}
+  - component: {fileID: 647134846}
   m_Layer: 0
   m_Name: DefaultGoldmann III (30)
   m_TagString: Untagged
@@ -13892,7 +14223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -14014,7 +14345,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -14064,6 +14395,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &647134846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647134842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &653304357
 GameObject:
   m_ObjectHideFlags: 0
@@ -14292,6 +14637,7 @@ GameObject:
   - component: {fileID: 657965282}
   - component: {fileID: 657965284}
   - component: {fileID: 657965283}
+  - component: {fileID: 657965285}
   m_Layer: 0
   m_Name: DefaultGoldmann III (66)
   m_TagString: Untagged
@@ -14326,7 +14672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -14448,7 +14794,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -14498,6 +14844,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &657965285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657965281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &667088719
 GameObject:
   m_ObjectHideFlags: 0
@@ -14509,6 +14869,7 @@ GameObject:
   - component: {fileID: 667088720}
   - component: {fileID: 667088722}
   - component: {fileID: 667088721}
+  - component: {fileID: 667088723}
   m_Layer: 0
   m_Name: DefaultGoldmann III (40)
   m_TagString: Untagged
@@ -14543,7 +14904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -14665,7 +15026,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -14715,6 +15076,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &667088723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667088719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &678622552
 GameObject:
   m_ObjectHideFlags: 0
@@ -14943,6 +15318,7 @@ GameObject:
   - component: {fileID: 688075757}
   - component: {fileID: 688075759}
   - component: {fileID: 688075758}
+  - component: {fileID: 688075760}
   m_Layer: 0
   m_Name: DefaultGoldmann III (27)
   m_TagString: Untagged
@@ -14977,7 +15353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -15099,7 +15475,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -15149,6 +15525,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &688075760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688075756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &703424492
 GameObject:
   m_ObjectHideFlags: 0
@@ -15843,6 +16233,7 @@ GameObject:
   - component: {fileID: 750781290}
   - component: {fileID: 750781292}
   - component: {fileID: 750781291}
+  - component: {fileID: 750781293}
   m_Layer: 0
   m_Name: DefaultGoldmann III (67)
   m_TagString: Untagged
@@ -15877,7 +16268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -15999,7 +16390,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -16049,6 +16440,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &750781293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750781289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &757054489
 GameObject:
   m_ObjectHideFlags: 0
@@ -16747,6 +17152,7 @@ GameObject:
   - component: {fileID: 778242077}
   - component: {fileID: 778242079}
   - component: {fileID: 778242078}
+  - component: {fileID: 778242080}
   m_Layer: 0
   m_Name: DefaultGoldmann III (5)
   m_TagString: Untagged
@@ -16781,7 +17187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -16903,7 +17309,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -16953,6 +17359,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &778242080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778242076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &797275370
 GameObject:
   m_ObjectHideFlags: 0
@@ -16993,7 +17413,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797275370}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -17611,6 +18031,7 @@ GameObject:
   - component: {fileID: 806034305}
   - component: {fileID: 806034307}
   - component: {fileID: 806034306}
+  - component: {fileID: 806034308}
   m_Layer: 0
   m_Name: DefaultGoldmann III (45)
   m_TagString: Untagged
@@ -17645,7 +18066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -17767,7 +18188,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -17817,6 +18238,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &806034308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806034304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &816138359
 GameObject:
   m_ObjectHideFlags: 0
@@ -17828,6 +18263,7 @@ GameObject:
   - component: {fileID: 816138360}
   - component: {fileID: 816138362}
   - component: {fileID: 816138361}
+  - component: {fileID: 816138363}
   m_Layer: 0
   m_Name: DefaultGoldmann III (19)
   m_TagString: Untagged
@@ -17862,7 +18298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -17984,7 +18420,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -18034,6 +18470,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &816138363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816138359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &821921634
 GameObject:
   m_ObjectHideFlags: 0
@@ -18045,6 +18495,7 @@ GameObject:
   - component: {fileID: 821921635}
   - component: {fileID: 821921637}
   - component: {fileID: 821921636}
+  - component: {fileID: 821921638}
   m_Layer: 0
   m_Name: DefaultGoldmann III (20)
   m_TagString: Untagged
@@ -18079,7 +18530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -18201,7 +18652,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -18251,6 +18702,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &821921638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821921634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &850004978
 GameObject:
   m_ObjectHideFlags: 0
@@ -18479,6 +18944,7 @@ GameObject:
   - component: {fileID: 873059855}
   - component: {fileID: 873059857}
   - component: {fileID: 873059856}
+  - component: {fileID: 873059858}
   m_Layer: 0
   m_Name: DefaultGoldmann III (42)
   m_TagString: Untagged
@@ -18513,7 +18979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -18635,7 +19101,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -18685,6 +19151,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &873059858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873059854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &874958334
 GameObject:
   m_ObjectHideFlags: 0
@@ -18913,6 +19393,7 @@ GameObject:
   - component: {fileID: 882830523}
   - component: {fileID: 882830525}
   - component: {fileID: 882830524}
+  - component: {fileID: 882830526}
   m_Layer: 0
   m_Name: DefaultGoldmann III (25)
   m_TagString: Untagged
@@ -18947,7 +19428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -19069,7 +19550,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -19119,6 +19600,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &882830526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882830522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &889273037
 GameObject:
   m_ObjectHideFlags: 0
@@ -19130,6 +19625,7 @@ GameObject:
   - component: {fileID: 889273038}
   - component: {fileID: 889273040}
   - component: {fileID: 889273039}
+  - component: {fileID: 889273041}
   m_Layer: 0
   m_Name: DefaultGoldmann III (17)
   m_TagString: Untagged
@@ -19164,7 +19660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -19286,7 +19782,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -19336,6 +19832,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &889273041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889273037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &909901923
 GameObject:
   m_ObjectHideFlags: 0
@@ -19347,6 +19857,7 @@ GameObject:
   - component: {fileID: 909901924}
   - component: {fileID: 909901926}
   - component: {fileID: 909901925}
+  - component: {fileID: 909901927}
   m_Layer: 0
   m_Name: DefaultGoldmann III (24)
   m_TagString: Untagged
@@ -19381,7 +19892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -19503,7 +20014,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -19553,6 +20064,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &909901927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909901923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &929882529
 GameObject:
   m_ObjectHideFlags: 0
@@ -19781,6 +20306,7 @@ GameObject:
   - component: {fileID: 935370441}
   - component: {fileID: 935370443}
   - component: {fileID: 935370442}
+  - component: {fileID: 935370444}
   m_Layer: 0
   m_Name: DefaultGoldmann III (39)
   m_TagString: Untagged
@@ -19815,7 +20341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -19937,7 +20463,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -19987,6 +20513,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &935370444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935370440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &960570787
 GameObject:
   m_ObjectHideFlags: 0
@@ -19998,6 +20538,7 @@ GameObject:
   - component: {fileID: 960570788}
   - component: {fileID: 960570790}
   - component: {fileID: 960570789}
+  - component: {fileID: 960570791}
   m_Layer: 0
   m_Name: DefaultGoldmann III (75)
   m_TagString: Untagged
@@ -20032,7 +20573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -20154,7 +20695,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -20204,6 +20745,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &960570791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960570787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &964021685
 GameObject:
   m_ObjectHideFlags: 0
@@ -20215,6 +20770,7 @@ GameObject:
   - component: {fileID: 964021686}
   - component: {fileID: 964021688}
   - component: {fileID: 964021687}
+  - component: {fileID: 964021689}
   m_Layer: 0
   m_Name: DefaultGoldmann III (56)
   m_TagString: Untagged
@@ -20249,7 +20805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -20371,7 +20927,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -20421,6 +20977,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &964021689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964021685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &971900444
 GameObject:
   m_ObjectHideFlags: 0
@@ -20866,6 +21436,7 @@ GameObject:
   - component: {fileID: 1020975856}
   - component: {fileID: 1020975858}
   - component: {fileID: 1020975857}
+  - component: {fileID: 1020975859}
   m_Layer: 0
   m_Name: DefaultGoldmann III (13)
   m_TagString: Untagged
@@ -20900,7 +21471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -21022,7 +21593,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -21072,6 +21643,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1020975859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020975855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1024828869
 GameObject:
   m_ObjectHideFlags: 0
@@ -22043,7 +22628,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071242407}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -22474,7 +23059,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081119396}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
@@ -22485,7 +23070,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 12
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -22666,6 +23251,7 @@ GameObject:
   - component: {fileID: 1091622681}
   - component: {fileID: 1091622683}
   - component: {fileID: 1091622682}
+  - component: {fileID: 1091622684}
   m_Layer: 0
   m_Name: DefaultGoldmann III (6)
   m_TagString: Untagged
@@ -22700,7 +23286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -22822,7 +23408,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -22872,6 +23458,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1091622684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091622680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1091861761
 GameObject:
   m_ObjectHideFlags: 0
@@ -23317,6 +23917,7 @@ GameObject:
   - component: {fileID: 1125439304}
   - component: {fileID: 1125439306}
   - component: {fileID: 1125439305}
+  - component: {fileID: 1125439307}
   m_Layer: 0
   m_Name: DefaultGoldmann III (60)
   m_TagString: Untagged
@@ -23351,7 +23952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -23473,7 +24074,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -23523,6 +24124,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1125439307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125439303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1128276241
 GameObject:
   m_ObjectHideFlags: 0
@@ -23751,6 +24366,7 @@ GameObject:
   - component: {fileID: 1143597739}
   - component: {fileID: 1143597741}
   - component: {fileID: 1143597740}
+  - component: {fileID: 1143597742}
   m_Layer: 0
   m_Name: DefaultGoldmann III (70)
   m_TagString: Untagged
@@ -23785,7 +24401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -23907,7 +24523,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -23957,6 +24573,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1143597742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143597738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1151995921
 GameObject:
   m_ObjectHideFlags: 0
@@ -24836,6 +25466,7 @@ GameObject:
   - component: {fileID: 1170304982}
   - component: {fileID: 1170304984}
   - component: {fileID: 1170304983}
+  - component: {fileID: 1170304985}
   m_Layer: 0
   m_Name: DefaultGoldmann III (63)
   m_TagString: Untagged
@@ -24870,7 +25501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -24992,7 +25623,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -25042,6 +25673,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1170304985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170304981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1182914088
 GameObject:
   m_ObjectHideFlags: 0
@@ -25053,6 +25698,7 @@ GameObject:
   - component: {fileID: 1182914089}
   - component: {fileID: 1182914091}
   - component: {fileID: 1182914090}
+  - component: {fileID: 1182914092}
   m_Layer: 0
   m_Name: DefaultGoldmann III (11)
   m_TagString: Untagged
@@ -25087,7 +25733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -25209,7 +25855,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -25259,6 +25905,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1182914092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182914088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1189414589
 GameObject:
   m_ObjectHideFlags: 0
@@ -25921,6 +26581,7 @@ GameObject:
   - component: {fileID: 1198190353}
   - component: {fileID: 1198190355}
   - component: {fileID: 1198190354}
+  - component: {fileID: 1198190356}
   m_Layer: 0
   m_Name: DefaultGoldmann III (43)
   m_TagString: Untagged
@@ -25955,7 +26616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -26077,7 +26738,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -26127,6 +26788,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1198190356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198190352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1223786518
 GameObject:
   m_ObjectHideFlags: 0
@@ -26820,6 +27495,7 @@ GameObject:
   - component: {fileID: 1262528217}
   - component: {fileID: 1262528219}
   - component: {fileID: 1262528218}
+  - component: {fileID: 1262528220}
   m_Layer: 0
   m_Name: DefaultGoldmann III (8)
   m_TagString: Untagged
@@ -26854,7 +27530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -26976,7 +27652,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -27026,6 +27702,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1262528220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262528216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1287734945
 GameObject:
   m_ObjectHideFlags: 0
@@ -27254,6 +27944,7 @@ GameObject:
   - component: {fileID: 1287748466}
   - component: {fileID: 1287748468}
   - component: {fileID: 1287748467}
+  - component: {fileID: 1287748469}
   m_Layer: 0
   m_Name: DefaultGoldmann III (10)
   m_TagString: Untagged
@@ -27288,7 +27979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -27410,7 +28101,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -27460,6 +28151,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1287748469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287748465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1290918401
 GameObject:
   m_ObjectHideFlags: 0
@@ -27688,6 +28393,7 @@ GameObject:
   - component: {fileID: 1291255587}
   - component: {fileID: 1291255589}
   - component: {fileID: 1291255588}
+  - component: {fileID: 1291255590}
   m_Layer: 0
   m_Name: DefaultGoldmann III (44)
   m_TagString: Untagged
@@ -27722,7 +28428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -27844,7 +28550,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -27894,6 +28600,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1291255590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291255586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1299333173
 GameObject:
   m_ObjectHideFlags: 0
@@ -28122,6 +28842,7 @@ GameObject:
   - component: {fileID: 1300469657}
   - component: {fileID: 1300469659}
   - component: {fileID: 1300469658}
+  - component: {fileID: 1300469660}
   m_Layer: 0
   m_Name: DefaultGoldmann III (38)
   m_TagString: Untagged
@@ -28156,7 +28877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -28278,7 +28999,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -28328,6 +29049,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1300469660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300469656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1305714581
 GameObject:
   m_ObjectHideFlags: 0
@@ -28773,6 +29508,7 @@ GameObject:
   - component: {fileID: 1338917222}
   - component: {fileID: 1338917224}
   - component: {fileID: 1338917223}
+  - component: {fileID: 1338917225}
   m_Layer: 0
   m_Name: DefaultGoldmann III (50)
   m_TagString: Untagged
@@ -28807,7 +29543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -28929,7 +29665,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -28979,6 +29715,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1338917225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338917221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1341200481
 GameObject:
   m_ObjectHideFlags: 0
@@ -28990,6 +29740,7 @@ GameObject:
   - component: {fileID: 1341200482}
   - component: {fileID: 1341200484}
   - component: {fileID: 1341200483}
+  - component: {fileID: 1341200485}
   m_Layer: 0
   m_Name: DefaultGoldmann III (52)
   m_TagString: Untagged
@@ -29024,7 +29775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -29146,7 +29897,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -29196,6 +29947,69 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1341200485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341200481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
+--- !u!1 &1356886868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1356886870}
+  - component: {fileID: 1356886869}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1356886869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356886868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 6790862645ee0f54a9a713d1cf1336e3, type: 2}
+--- !u!4 &1356886870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356886868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57027215, y: -1.5668074, z: 0.2819613}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1366164535
 GameObject:
   m_ObjectHideFlags: 0
@@ -29641,6 +30455,7 @@ GameObject:
   - component: {fileID: 1411868689}
   - component: {fileID: 1411868691}
   - component: {fileID: 1411868690}
+  - component: {fileID: 1411868692}
   m_Layer: 0
   m_Name: DefaultGoldmann III (1)
   m_TagString: Untagged
@@ -29675,7 +30490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -29797,7 +30612,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -29847,6 +30662,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1411868692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411868688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1432959924
 GameObject:
   m_ObjectHideFlags: 0
@@ -29858,6 +30687,7 @@ GameObject:
   - component: {fileID: 1432959925}
   - component: {fileID: 1432959927}
   - component: {fileID: 1432959926}
+  - component: {fileID: 1432959928}
   m_Layer: 0
   m_Name: DefaultGoldmann III (74)
   m_TagString: Untagged
@@ -29892,7 +30722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -30014,7 +30844,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -30064,6 +30894,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1432959928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432959924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1433411552
 GameObject:
   m_ObjectHideFlags: 0
@@ -31028,6 +31872,7 @@ GameObject:
   - component: {fileID: 1478247611}
   - component: {fileID: 1478247613}
   - component: {fileID: 1478247612}
+  - component: {fileID: 1478247614}
   m_Layer: 0
   m_Name: DefaultGoldmann III (73)
   m_TagString: Untagged
@@ -31062,7 +31907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -31184,7 +32029,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -31234,6 +32079,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1478247614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478247610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1484680894
 GameObject:
   m_ObjectHideFlags: 0
@@ -31245,6 +32104,7 @@ GameObject:
   - component: {fileID: 1484680895}
   - component: {fileID: 1484680897}
   - component: {fileID: 1484680896}
+  - component: {fileID: 1484680898}
   m_Layer: 0
   m_Name: DefaultGoldmann III (53)
   m_TagString: Untagged
@@ -31279,7 +32139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -31401,7 +32261,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -31451,6 +32311,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1484680898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484680894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1484906133
 GameObject:
   m_ObjectHideFlags: 0
@@ -31462,6 +32336,7 @@ GameObject:
   - component: {fileID: 1484906134}
   - component: {fileID: 1484906136}
   - component: {fileID: 1484906135}
+  - component: {fileID: 1484906137}
   m_Layer: 0
   m_Name: DefaultGoldmann III (71)
   m_TagString: Untagged
@@ -31496,7 +32371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -31618,7 +32493,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -31668,6 +32543,68 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1484906137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484906133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
+--- !u!1 &1511198997
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511198999}
+  - component: {fileID: 1511198998}
+  m_Layer: 0
+  m_Name: StaticLightingSky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1511198998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511198997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Profile: {fileID: 0}
+  m_StaticLightingSkyUniqueID: 0
+  m_StaticLightingCloudsUniqueID: 0
+  m_StaticLightingVolumetricClouds: 0
+--- !u!4 &1511198999
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511198997}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1536419860
 GameObject:
   m_ObjectHideFlags: 0
@@ -32024,10 +32961,10 @@ MonoBehaviour:
   m_InteractsWithSky: 1
   m_AngularDiameter: 0.5
   m_FlareSize: 2
-  m_FlareTint: {r: 1, g: 1, b: 1, a: 1}
+  m_FlareTint: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 1}
   m_FlareFalloff: 4
   m_SurfaceTexture: {fileID: 0}
-  m_SurfaceTint: {r: 0, g: 0, b: 0, a: 1}
+  m_SurfaceTint: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_Distance: 1.5e+11
   m_UseRayTracedShadows: 0
   m_NumRayTracingSamples: 4
@@ -32330,6 +33267,7 @@ GameObject:
   - component: {fileID: 1555434517}
   - component: {fileID: 1555434519}
   - component: {fileID: 1555434518}
+  - component: {fileID: 1555434520}
   m_Layer: 0
   m_Name: DefaultGoldmann III (41)
   m_TagString: Untagged
@@ -32364,7 +33302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -32486,7 +33424,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -32536,6 +33474,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1555434520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555434516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1555990410
 GameObject:
   m_ObjectHideFlags: 0
@@ -32547,6 +33499,7 @@ GameObject:
   - component: {fileID: 1555990411}
   - component: {fileID: 1555990413}
   - component: {fileID: 1555990412}
+  - component: {fileID: 1555990414}
   m_Layer: 0
   m_Name: DefaultGoldmann III (57)
   m_TagString: Untagged
@@ -32581,7 +33534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -32703,7 +33656,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -32753,6 +33706,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1555990414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555990410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1558744900
 GameObject:
   m_ObjectHideFlags: 0
@@ -32764,6 +33731,7 @@ GameObject:
   - component: {fileID: 1558744901}
   - component: {fileID: 1558744903}
   - component: {fileID: 1558744902}
+  - component: {fileID: 1558744904}
   m_Layer: 0
   m_Name: DefaultGoldmann III (62)
   m_TagString: Untagged
@@ -32798,7 +33766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -32920,7 +33888,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -32970,6 +33938,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1558744904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558744900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1565779335
 GameObject:
   m_ObjectHideFlags: 0
@@ -33914,6 +34896,7 @@ GameObject:
   - component: {fileID: 1616579951}
   - component: {fileID: 1616579953}
   - component: {fileID: 1616579952}
+  - component: {fileID: 1616579954}
   m_Layer: 0
   m_Name: DefaultGoldmann III (4)
   m_TagString: Untagged
@@ -33948,7 +34931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -34070,7 +35053,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -34120,6 +35103,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1616579954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616579950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1617758197
 GameObject:
   m_ObjectHideFlags: 0
@@ -34245,7 +35242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usePerEyeCameras: 1
+  usePerEyeCameras: 0
   useFixedUpdateForTracking: 0
   disableEyeAnchorCameras: 0
 --- !u!114 &1617758201
@@ -34543,6 +35540,7 @@ GameObject:
   - component: {fileID: 1655877555}
   - component: {fileID: 1655877557}
   - component: {fileID: 1655877556}
+  - component: {fileID: 1655877558}
   m_Layer: 0
   m_Name: DefaultGoldmann III (2)
   m_TagString: Untagged
@@ -34577,7 +35575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -34699,7 +35697,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -34749,6 +35747,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1655877558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655877554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1658954002
 GameObject:
   m_ObjectHideFlags: 0
@@ -35225,6 +36237,7 @@ GameObject:
   - component: {fileID: 1684983229}
   - component: {fileID: 1684983231}
   - component: {fileID: 1684983230}
+  - component: {fileID: 1684983232}
   m_Layer: 0
   m_Name: DefaultGoldmann III (49)
   m_TagString: Untagged
@@ -35259,7 +36272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -35381,7 +36394,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -35431,6 +36444,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1684983232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684983228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1712635099
 GameObject:
   m_ObjectHideFlags: 0
@@ -35442,6 +36469,7 @@ GameObject:
   - component: {fileID: 1712635100}
   - component: {fileID: 1712635102}
   - component: {fileID: 1712635101}
+  - component: {fileID: 1712635103}
   m_Layer: 0
   m_Name: DefaultGoldmann III (21)
   m_TagString: Untagged
@@ -35476,7 +36504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -35598,7 +36626,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -35648,6 +36676,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1712635103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712635099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1725008648
 GameObject:
   m_ObjectHideFlags: 0
@@ -35909,6 +36951,7 @@ GameObject:
   - component: {fileID: 1759351313}
   - component: {fileID: 1759351315}
   - component: {fileID: 1759351314}
+  - component: {fileID: 1759351316}
   m_Layer: 0
   m_Name: DefaultGoldmann III (72)
   m_TagString: Untagged
@@ -35943,7 +36986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -36065,7 +37108,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -36115,6 +37158,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1759351316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759351312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1763405208
 GameObject:
   m_ObjectHideFlags: 0
@@ -36126,6 +37183,7 @@ GameObject:
   - component: {fileID: 1763405209}
   - component: {fileID: 1763405211}
   - component: {fileID: 1763405210}
+  - component: {fileID: 1763405212}
   m_Layer: 0
   m_Name: DefaultGoldmann III (16)
   m_TagString: Untagged
@@ -36160,7 +37218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -36282,7 +37340,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -36332,6 +37390,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1763405212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763405208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1765204689
 GameObject:
   m_ObjectHideFlags: 0
@@ -36343,6 +37415,7 @@ GameObject:
   - component: {fileID: 1765204690}
   - component: {fileID: 1765204692}
   - component: {fileID: 1765204691}
+  - component: {fileID: 1765204693}
   m_Layer: 0
   m_Name: DefaultGoldmann III (64)
   m_TagString: Untagged
@@ -36377,7 +37450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -36499,7 +37572,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -36549,6 +37622,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1765204693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765204689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1768912953
 GameObject:
   m_ObjectHideFlags: 0
@@ -37428,6 +38515,7 @@ GameObject:
   - component: {fileID: 1815035784}
   - component: {fileID: 1815035786}
   - component: {fileID: 1815035785}
+  - component: {fileID: 1815035787}
   m_Layer: 0
   m_Name: DefaultGoldmann III
   m_TagString: Untagged
@@ -37462,7 +38550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -37584,7 +38672,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -37634,6 +38722,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1815035787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815035783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1844611981
 GameObject:
   m_ObjectHideFlags: 0
@@ -38896,6 +39998,7 @@ GameObject:
   - component: {fileID: 1884562922}
   - component: {fileID: 1884562924}
   - component: {fileID: 1884562923}
+  - component: {fileID: 1884562925}
   m_Layer: 0
   m_Name: DefaultGoldmann III (54)
   m_TagString: Untagged
@@ -38930,7 +40033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -39052,7 +40155,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -39102,6 +40205,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1884562925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884562921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1905644107
 GameObject:
   m_ObjectHideFlags: 0
@@ -39764,6 +40881,7 @@ GameObject:
   - component: {fileID: 1931117023}
   - component: {fileID: 1931117025}
   - component: {fileID: 1931117024}
+  - component: {fileID: 1931117026}
   m_Layer: 0
   m_Name: DefaultGoldmann III (34)
   m_TagString: Untagged
@@ -39798,7 +40916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -39920,7 +41038,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -39970,6 +41088,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1931117026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931117022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1936156220
 GameObject:
   m_ObjectHideFlags: 0
@@ -39981,6 +41113,7 @@ GameObject:
   - component: {fileID: 1936156221}
   - component: {fileID: 1936156223}
   - component: {fileID: 1936156222}
+  - component: {fileID: 1936156224}
   m_Layer: 0
   m_Name: DefaultGoldmann III (15)
   m_TagString: Untagged
@@ -40015,7 +41148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -40137,7 +41270,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -40187,6 +41320,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1936156224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936156220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1947963231
 GameObject:
   m_ObjectHideFlags: 0
@@ -40198,6 +41345,7 @@ GameObject:
   - component: {fileID: 1947963232}
   - component: {fileID: 1947963234}
   - component: {fileID: 1947963233}
+  - component: {fileID: 1947963235}
   m_Layer: 0
   m_Name: DefaultGoldmann III (29)
   m_TagString: Untagged
@@ -40232,7 +41380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -40354,7 +41502,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -40404,6 +41552,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1947963235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947963231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1949782520
 GameObject:
   m_ObjectHideFlags: 0
@@ -41136,6 +42298,7 @@ GameObject:
   - component: {fileID: 1988310014}
   - component: {fileID: 1988310016}
   - component: {fileID: 1988310015}
+  - component: {fileID: 1988310017}
   m_Layer: 0
   m_Name: DefaultGoldmann III (9)
   m_TagString: Untagged
@@ -41170,7 +42333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -41292,7 +42455,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -41342,6 +42505,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1988310017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988310013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1991287460
 GameObject:
   m_ObjectHideFlags: 0
@@ -41353,6 +42530,7 @@ GameObject:
   - component: {fileID: 1991287461}
   - component: {fileID: 1991287463}
   - component: {fileID: 1991287462}
+  - component: {fileID: 1991287464}
   m_Layer: 0
   m_Name: DefaultGoldmann III (18)
   m_TagString: Untagged
@@ -41387,7 +42565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -41509,7 +42687,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -41559,6 +42737,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1991287464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991287460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &1991667381
 GameObject:
   m_ObjectHideFlags: 0
@@ -41570,6 +42762,7 @@ GameObject:
   - component: {fileID: 1991667382}
   - component: {fileID: 1991667384}
   - component: {fileID: 1991667383}
+  - component: {fileID: 1991667385}
   m_Layer: 0
   m_Name: DefaultGoldmann III (7)
   m_TagString: Untagged
@@ -41604,7 +42797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -41726,7 +42919,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -41776,6 +42969,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1991667385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991667381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &2006194084
 GameObject:
   m_ObjectHideFlags: 0
@@ -42035,6 +43242,7 @@ GameObject:
   - component: {fileID: 2053316551}
   - component: {fileID: 2053316553}
   - component: {fileID: 2053316552}
+  - component: {fileID: 2053316554}
   m_Layer: 0
   m_Name: DefaultGoldmann III (68)
   m_TagString: Untagged
@@ -42069,7 +43277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -42191,7 +43399,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -42241,6 +43449,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2053316554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053316550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1 &2064523610
 GameObject:
   m_ObjectHideFlags: 0
@@ -42469,6 +43691,7 @@ GameObject:
   - component: {fileID: 2116706050}
   - component: {fileID: 2116706052}
   - component: {fileID: 2116706051}
+  - component: {fileID: 2116706053}
   m_Layer: 0
   m_Name: DefaultGoldmann III (69)
   m_TagString: Untagged
@@ -42503,7 +43726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -42625,7 +43848,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3183.0989
+  m_Intensity: 3183
   m_Range: 0.772645
   m_SpotAngle: 1
   m_InnerSpotAngle: 1
@@ -42675,6 +43898,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2116706053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116706049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7d9894ca2b42a44ad346d57884f240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luminocity: 3183
+  db: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -42687,3 +43924,5 @@ SceneRoots:
   - {fileID: 158363997}
   - {fileID: 1856935754}
   - {fileID: 380181842}
+  - {fileID: 1511198999}
+  - {fileID: 1356886870}

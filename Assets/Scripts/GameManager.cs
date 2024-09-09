@@ -39,14 +39,31 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator Active(List<GameObject> lista)
     {
+        
+        //Active the parent. It could be 30-2, 24-2, or 10-2
         lista[0].transform.parent.gameObject.SetActive(true);
+
+        //Ligths randomly active
         for (int i = 0; i < lista.Count; i++)
         {
             var rand = Random.Range(1, lista.Count);
             //Debug.Log(rand);
+            if (lista[rand].TryGetComponent<Luminocity>(out Luminocity luminocity))
+            {
+                luminocity.CalculateLuminocity();
+                if (lista[rand].TryGetComponent<Light>(out Light light))
+                {
+                    light.intensity = luminocity.luminocity;
+                }
+
+            }
+
+
             lista[rand].gameObject.SetActive(true);
             StartCoroutine(Rest(lista[rand].gameObject));
             yield return new WaitForSecondsRealtime(1);
+
+
             //float timeOff = 0;s
             //while (timeOff < 100f)
             //{
