@@ -571,6 +571,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &4951034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1290,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &27154850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,6 +2394,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &102035841
 GameObject:
   m_ObjectHideFlags: 0
@@ -3269,6 +3281,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &128973186
 GameObject:
   m_ObjectHideFlags: 0
@@ -3980,6 +3996,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &204132202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,6 +4666,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &245307201
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,6 +4902,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &264462466
 GameObject:
   m_ObjectHideFlags: 0
@@ -5544,6 +5572,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &305374198
 GameObject:
   m_ObjectHideFlags: 0
@@ -6644,6 +6676,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &372198754
 GameObject:
   m_ObjectHideFlags: 0
@@ -8349,6 +8385,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &432071498
 GameObject:
   m_ObjectHideFlags: 0
@@ -9751,6 +9791,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &493522513
 GameObject:
   m_ObjectHideFlags: 0
@@ -9983,6 +10027,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &501872201
 GameObject:
   m_ObjectHideFlags: 0
@@ -10215,6 +10263,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &516499226
 GameObject:
   m_ObjectHideFlags: 0
@@ -10664,6 +10716,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &526355930
 GameObject:
   m_ObjectHideFlags: 0
@@ -11113,6 +11169,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &533832996
 GameObject:
   m_ObjectHideFlags: 0
@@ -11779,6 +11839,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &555711408
 GameObject:
   m_ObjectHideFlags: 0
@@ -12118,6 +12182,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &572141906
 GameObject:
   m_ObjectHideFlags: 0
@@ -12350,6 +12418,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &578088287
 GameObject:
   m_ObjectHideFlags: 0
@@ -12582,6 +12654,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &581874089
 GameObject:
   m_ObjectHideFlags: 0
@@ -13279,6 +13355,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &606870704
 GameObject:
   m_ObjectHideFlags: 0
@@ -13945,6 +14025,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &632057832
 GameObject:
   m_ObjectHideFlags: 0
@@ -14177,6 +14261,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &647134842
 GameObject:
   m_ObjectHideFlags: 0
@@ -14409,6 +14497,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &653304357
 GameObject:
   m_ObjectHideFlags: 0
@@ -14858,6 +14950,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &667088719
 GameObject:
   m_ObjectHideFlags: 0
@@ -15090,6 +15186,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &678622552
 GameObject:
   m_ObjectHideFlags: 0
@@ -15539,6 +15639,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &703424492
 GameObject:
   m_ObjectHideFlags: 0
@@ -16454,6 +16558,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &757054489
 GameObject:
   m_ObjectHideFlags: 0
@@ -17373,6 +17481,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &797275370
 GameObject:
   m_ObjectHideFlags: 0
@@ -18252,6 +18364,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &816138359
 GameObject:
   m_ObjectHideFlags: 0
@@ -18484,6 +18600,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &821921634
 GameObject:
   m_ObjectHideFlags: 0
@@ -18716,6 +18836,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &850004978
 GameObject:
   m_ObjectHideFlags: 0
@@ -19165,6 +19289,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &874958334
 GameObject:
   m_ObjectHideFlags: 0
@@ -19614,6 +19742,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &889273037
 GameObject:
   m_ObjectHideFlags: 0
@@ -19846,6 +19978,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &909901923
 GameObject:
   m_ObjectHideFlags: 0
@@ -20078,6 +20214,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &929882529
 GameObject:
   m_ObjectHideFlags: 0
@@ -20527,6 +20667,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &960570787
 GameObject:
   m_ObjectHideFlags: 0
@@ -20759,6 +20903,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &964021685
 GameObject:
   m_ObjectHideFlags: 0
@@ -20991,6 +21139,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &971900444
 GameObject:
   m_ObjectHideFlags: 0
@@ -21657,6 +21809,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1024828869
 GameObject:
   m_ObjectHideFlags: 0
@@ -23472,6 +23628,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1091861761
 GameObject:
   m_ObjectHideFlags: 0
@@ -24138,6 +24298,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1128276241
 GameObject:
   m_ObjectHideFlags: 0
@@ -24587,6 +24751,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1151995921
 GameObject:
   m_ObjectHideFlags: 0
@@ -25687,6 +25855,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1182914088
 GameObject:
   m_ObjectHideFlags: 0
@@ -25919,6 +26091,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1189414589
 GameObject:
   m_ObjectHideFlags: 0
@@ -26802,6 +26978,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1223786518
 GameObject:
   m_ObjectHideFlags: 0
@@ -27716,6 +27896,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1287734945
 GameObject:
   m_ObjectHideFlags: 0
@@ -28165,6 +28349,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1290918401
 GameObject:
   m_ObjectHideFlags: 0
@@ -28614,6 +28802,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1299333173
 GameObject:
   m_ObjectHideFlags: 0
@@ -29063,6 +29255,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1305714581
 GameObject:
   m_ObjectHideFlags: 0
@@ -29729,6 +29925,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1341200481
 GameObject:
   m_ObjectHideFlags: 0
@@ -29961,6 +30161,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1356886868
 GameObject:
   m_ObjectHideFlags: 0
@@ -30676,6 +30880,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1432959924
 GameObject:
   m_ObjectHideFlags: 0
@@ -30908,6 +31116,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1433411552
 GameObject:
   m_ObjectHideFlags: 0
@@ -32093,6 +32305,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1484680894
 GameObject:
   m_ObjectHideFlags: 0
@@ -32325,6 +32541,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1484906133
 GameObject:
   m_ObjectHideFlags: 0
@@ -32557,6 +32777,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1511198997
 GameObject:
   m_ObjectHideFlags: 1
@@ -33488,6 +33712,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1555990410
 GameObject:
   m_ObjectHideFlags: 0
@@ -33720,6 +33948,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1558744900
 GameObject:
   m_ObjectHideFlags: 0
@@ -33952,6 +34184,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1565779335
 GameObject:
   m_ObjectHideFlags: 0
@@ -35117,6 +35353,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1617758197
 GameObject:
   m_ObjectHideFlags: 0
@@ -35167,7 +35407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useRecommendedMSAALevel: 1
-  _monoscopic: 0
+  _monoscopic: 1
   _sharpenType: 0
   enableDynamicResolution: 1
   minDynamicResolutionScale: 0.7
@@ -35761,6 +36001,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1658954002
 GameObject:
   m_ObjectHideFlags: 0
@@ -36458,6 +36702,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1712635099
 GameObject:
   m_ObjectHideFlags: 0
@@ -36690,6 +36938,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1725008648
 GameObject:
   m_ObjectHideFlags: 0
@@ -37172,6 +37424,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1763405208
 GameObject:
   m_ObjectHideFlags: 0
@@ -37404,6 +37660,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1765204689
 GameObject:
   m_ObjectHideFlags: 0
@@ -37636,6 +37896,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1768912953
 GameObject:
   m_ObjectHideFlags: 0
@@ -38736,6 +39000,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1844611981
 GameObject:
   m_ObjectHideFlags: 0
@@ -39091,6 +39359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c03eda582d1d08441aa853b3e01a62e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  falsePositives: {fileID: 11400000, guid: 2e50240ddc2068545b0899cb1ef0631b, type: 2}
+  falseNegatives: {fileID: 11400000, guid: a162e3c45fd30d84c8ce705482ba6f36, type: 2}
 --- !u!114 &1856935757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40219,6 +40489,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1905644107
 GameObject:
   m_ObjectHideFlags: 0
@@ -41102,6 +41376,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1936156220
 GameObject:
   m_ObjectHideFlags: 0
@@ -41334,6 +41612,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1947963231
 GameObject:
   m_ObjectHideFlags: 0
@@ -41566,6 +41848,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1949782520
 GameObject:
   m_ObjectHideFlags: 0
@@ -42519,6 +42805,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1991287460
 GameObject:
   m_ObjectHideFlags: 0
@@ -42751,6 +43041,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &1991667381
 GameObject:
   m_ObjectHideFlags: 0
@@ -42983,6 +43277,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &2006194084
 GameObject:
   m_ObjectHideFlags: 0
@@ -43463,6 +43761,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1 &2064523610
 GameObject:
   m_ObjectHideFlags: 0
@@ -43912,6 +44214,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   luminocity: 3183
   db: 0
+  attenuating: 1
+  detected: 0
+  dbChange: 4
+  maxLumRegistered: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

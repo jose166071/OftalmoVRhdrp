@@ -6,6 +6,10 @@ using UnityEngine.UIElements;
 using UnityEngine.Rendering.HighDefinition;
 public class GameManager : MonoBehaviour
 {
+
+    [SerializeField] private GameEvent falsePositives;
+    [SerializeField] private GameEvent falseNegatives;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +54,9 @@ public class GameManager : MonoBehaviour
             //Debug.Log(rand);
             if (lista[rand].TryGetComponent<Luminocity>(out Luminocity luminocity))
             {
+                if (luminocity.dbChange < 1f) continue;
                 luminocity.CalculateLuminocity();
+
                 if (lista[rand].TryGetComponent<HDAdditionalLightData>(out HDAdditionalLightData light))
                 {
                     light.intensity = luminocity.luminocity;
@@ -61,6 +67,7 @@ public class GameManager : MonoBehaviour
 
             lista[rand].gameObject.SetActive(true);
             StartCoroutine(Rest(lista[rand].gameObject));
+            StartCoroutine(Register(lista[rand].gameObject));
             yield return new WaitForSecondsRealtime(1);
 
 
@@ -80,5 +87,33 @@ public class GameManager : MonoBehaviour
         
         yield return new WaitForSecondsRealtime(0.2f);
         ligth.SetActive(false);
+    }
+
+    private IEnumerator Register(GameObject stimuli)
+    {
+        //Debug.Log("Waiting Response");
+        if (stimuli.TryGetComponent<Luminocity>(out Luminocity stimul))
+        {
+            if (OVRInput.GetDown(OVRInput.RawButton.A))
+            {
+                Debug.Log("Waiting Response 2");
+                Debug.Log(stimuli.activeSelf);
+                if (stimuli.activeSelf)
+                {
+                    stimul.maxLumRegistered = stimul.luminocity;
+                    Debug.Log("Stimuli Registered");
+                }
+                else
+                {
+                    Debug.Log("Ayuda no sé por qué no funciona");
+                    stimul.dbChange = stimul.dbChange/2;
+                    stimul.attenuating = !stimul.attenuating;
+                }
+            }
+
+        }
+
+
+        yield return new WaitForSecondsRealtime(1f);
     }
 }

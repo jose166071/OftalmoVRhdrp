@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
         if (OVRInput.GetDown(OVRInput.RawButton.A))
         {
             OnButtonPressed.Raise(this, "Audio Clip Playing");
+            
         }
     }
 
