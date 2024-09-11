@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UIElements;
-
+using UnityEngine.Rendering.HighDefinition;
 public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
             if (lista[rand].TryGetComponent<Luminocity>(out Luminocity luminocity))
             {
                 luminocity.CalculateLuminocity();
-                if (lista[rand].TryGetComponent<Light>(out Light light))
+                if (lista[rand].TryGetComponent<HDAdditionalLightData>(out HDAdditionalLightData light))
                 {
                     light.intensity = luminocity.luminocity;
                 }
