@@ -4,6 +4,7 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.Rendering.HighDefinition;
+using Unity.VisualScripting;
 public class GameManager : MonoBehaviour
 {
 
@@ -48,9 +49,9 @@ public class GameManager : MonoBehaviour
         lista[0].transform.parent.gameObject.SetActive(true);
 
         //Ligths randomly active
-        for (int i = 0; i < lista.Count; i++)
+        for (int i = 0; i < lista.Count * 10; i++)
         {
-            var rand = Random.Range(1, lista.Count);
+            var rand = Random.Range(0, lista.Count);
             //Debug.Log(rand);
             if (lista[rand].TryGetComponent<Luminocity>(out Luminocity luminocity))
             {
@@ -91,29 +92,36 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator Register(GameObject stimuli)
     {
+        float limit = 1f;
+        float elapsed = 0f;
         //Debug.Log("Waiting Response");
         if (stimuli.TryGetComponent<Luminocity>(out Luminocity stimul))
         {
-            if (OVRInput.GetDown(OVRInput.RawButton.A))
+            while (elapsed < limit) 
             {
-                Debug.Log("Waiting Response 2");
-                Debug.Log(stimuli.activeSelf);
-                if (stimuli.activeSelf)
+                if (OVRInput.GetDown(OVRInput.RawButton.A))
                 {
-                    stimul.maxLumRegistered = stimul.luminocity;
-                    Debug.Log("Stimuli Registered");
+                    //Debug.Log("Waiting Response 2");
+                    Debug.Log(stimuli.activeSelf);
+                    if (stimuli.activeSelf)
+                    {
+                        stimul.maxLumRegistered = stimul.luminocity;
+                        Debug.Log("Stimuli Registered");
+                    }
+                    else
+                    {
+                        Debug.Log("Failed");
+                        stimul.dbChange = stimul.dbChange / 2;
+                        stimul.attenuating = !stimul.attenuating;
+                    }
+                    yield break;
                 }
-                else
-                {
-                    Debug.Log("Ayuda no sé por qué no funciona");
-                    stimul.dbChange = stimul.dbChange/2;
-                    stimul.attenuating = !stimul.attenuating;
-                }
+                elapsed += Time.deltaTime;
+                yield return null;
             }
-
+            yield break;
         }
 
-
-        yield return new WaitForSecondsRealtime(1f);
+        //yield return new WaitForSecondsRealtime(1f);
     }
 }

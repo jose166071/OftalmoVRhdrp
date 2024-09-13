@@ -20,17 +20,27 @@ public class Luminocity : MonoBehaviour
         // Calcule luminocity base on dbs
         if (attenuating)
         {
+            Debug.Log("Attenuating");
             db += dbChange;
+            if (db>40)
+            {
+                db = 40;
+            }
             luminocity = lRef / (Mathf.Pow(10, db / 10));
         }
         else 
         {
+            Debug.Log("Increasing intensity");
+            if (db < 0)
+            {
+                db = 0;
+            }
             db -= dbChange;
             luminocity = lRef / (Mathf.Pow(10, db / 10));
         }
 
 
 
-        //Debug.Log("Luminocity calculated" + gameObject.name + " " + luminocity.ToString());
+        Debug.Log("Luminocity calculated" + gameObject.name + " " + luminocity.ToString());
     }
 }
