@@ -572,7 +572,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &4951034
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &27154850
@@ -2395,7 +2395,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &102035841
@@ -3282,7 +3282,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &128973186
@@ -3997,7 +3997,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &204132202
@@ -4667,7 +4667,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &245307201
@@ -4903,7 +4903,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &264462466
@@ -5573,7 +5573,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &305374198
@@ -6677,7 +6677,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &372198754
@@ -8386,7 +8386,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &432071498
@@ -9792,7 +9792,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &493522513
@@ -10028,7 +10028,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &501872201
@@ -10264,7 +10264,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &516499226
@@ -10717,7 +10717,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &526355930
@@ -11170,7 +11170,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &533832996
@@ -11840,7 +11840,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &555711408
@@ -12183,7 +12183,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &572141906
@@ -12419,7 +12419,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &578088287
@@ -12655,7 +12655,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &581874089
@@ -13356,7 +13356,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &606870704
@@ -14026,7 +14026,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &632057832
@@ -14262,7 +14262,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &647134842
@@ -14498,7 +14498,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &653304357
@@ -14951,7 +14951,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &667088719
@@ -15187,7 +15187,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &678622552
@@ -15640,7 +15640,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &703424492
@@ -16342,7 +16342,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &720381593
@@ -16795,7 +16795,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &757054489
@@ -17719,7 +17719,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &797275370
@@ -17773,7 +17773,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -17788,7 +17788,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1
-  field of view: 60
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -18602,7 +18602,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &816138359
@@ -18838,7 +18838,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &821921634
@@ -19074,7 +19074,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &850004978
@@ -19562,7 +19562,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &874958334
@@ -20015,7 +20015,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &889273037
@@ -20251,7 +20251,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &909901923
@@ -20487,7 +20487,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &929882529
@@ -20940,7 +20940,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &960570787
@@ -21176,7 +21176,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &964021685
@@ -21412,7 +21412,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &971900444
@@ -22082,7 +22082,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1024828869
@@ -23901,7 +23901,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1091861761
@@ -24571,7 +24571,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1125439303
@@ -24807,7 +24807,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1128276241
@@ -25260,7 +25260,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1151995921
@@ -26364,7 +26364,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1182914088
@@ -26600,7 +26600,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1189414589
@@ -27053,7 +27053,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1189899183
@@ -27723,7 +27723,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1223786518
@@ -28641,7 +28641,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1287734945
@@ -29094,7 +29094,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1290918401
@@ -29547,7 +29547,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1299333173
@@ -30000,7 +30000,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1305714581
@@ -30670,7 +30670,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1341200481
@@ -30906,7 +30906,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1356886868
@@ -31625,7 +31625,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1432959924
@@ -31861,7 +31861,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1433411552
@@ -33050,7 +33050,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1484680894
@@ -33286,7 +33286,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1484906133
@@ -33522,7 +33522,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1511198997
@@ -34457,7 +34457,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1555990410
@@ -34693,7 +34693,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1558744900
@@ -34929,7 +34929,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1565779335
@@ -36110,7 +36110,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1617758197
@@ -36725,7 +36725,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1649967103
@@ -36994,7 +36994,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1658954002
@@ -37695,7 +37695,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1712635099
@@ -37931,7 +37931,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1725008648
@@ -38417,7 +38417,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1763405208
@@ -38653,7 +38653,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1765204689
@@ -38889,7 +38889,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1768912953
@@ -39993,7 +39993,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1844611981
@@ -41482,7 +41482,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1905644107
@@ -42369,7 +42369,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1936156220
@@ -42605,7 +42605,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1947963231
@@ -42841,7 +42841,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1949782520
@@ -43798,7 +43798,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1991287460
@@ -44034,7 +44034,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &1991667381
@@ -44270,7 +44270,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &2006194084
@@ -44754,7 +44754,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1 &2064523610
@@ -45207,7 +45207,7 @@ MonoBehaviour:
   luminocity: 3183
   db: 0
   attenuating: 1
-  detected: 0
+  finish: 0
   dbChange: 4
   maxLumRegistered: 0
 --- !u!1660057539 &9223372036854775807

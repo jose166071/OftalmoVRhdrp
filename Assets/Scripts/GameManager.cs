@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
             //Debug.Log(rand);
             if (lista[rand].TryGetComponent<Luminocity>(out Luminocity luminocity))
             {
-                if (luminocity.dbChange < 1f) continue;
+                if (luminocity.finish == true) continue;
                 luminocity.CalculateLuminocity();
 
                 if (lista[rand].TryGetComponent<HDAdditionalLightData>(out HDAdditionalLightData light))
@@ -110,9 +110,14 @@ public class GameManager : MonoBehaviour
                     }
                     else
                     {
+                        if (stimul.db == 1)
+                        {
+                            stimul.finish = true;
+                        }
                         Debug.Log("Failed");
                         stimul.dbChange = stimul.dbChange / 2;
                         stimul.attenuating = !stimul.attenuating;
+                        
                     }
                     yield break;
                 }

@@ -7,7 +7,9 @@ public class Luminocity : MonoBehaviour
     [SerializeField] public float luminocity;
     [SerializeField] public float db;
     [SerializeField] public bool attenuating = true;
-    [SerializeField] public bool detected = true;
+    //[SerializeField] public bool detected = true;
+
+    [SerializeField] public bool finish = false;
     
     private float lRef = 3183;
     public int dbChange = 4;
@@ -31,11 +33,12 @@ public class Luminocity : MonoBehaviour
         else 
         {
             Debug.Log("Increasing intensity");
+
+            db -= dbChange;
             if (db < 0)
             {
                 db = 0;
             }
-            db -= dbChange;
             luminocity = lRef / (Mathf.Pow(10, db / 10));
         }
 
