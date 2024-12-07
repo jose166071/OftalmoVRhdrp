@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PatientDat : ScriptableObject
-{
+{/*
     private string name;
     private float age;
     private int id;
@@ -31,5 +31,5 @@ public class PatientDat : ScriptableObject
         data.Init(name, age, id);
         return data;
     }
-
+    */
 }
