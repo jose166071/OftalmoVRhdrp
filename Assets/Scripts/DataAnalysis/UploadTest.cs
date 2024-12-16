@@ -16,13 +16,15 @@ private static string[] Scopes = { DriveService.Scope.DriveFile };
 
     private DriveService service;
 
-    void Start()
+    private void Update()
     {
-        Authenticate();
-        UploadTestFile();
+        if (Input.GetKeyDown("space"))
+        {
+            Authenticate();
+        }
     }
 
-    void Authenticate()
+    public void Authenticate()
     {
         UserCredential credential;
 
@@ -46,6 +48,8 @@ private static string[] Scopes = { DriveService.Scope.DriveFile };
         });
 
         Debug.Log("Autenticación completada.");
+
+        UploadTestFile();
     }
 
     void UploadTestFile()
@@ -58,16 +62,16 @@ private static string[] Scopes = { DriveService.Scope.DriveFile };
 
         var fileMetadata = new Google.Apis.Drive.v3.Data.File()
         {
-            Name = "CSVtest.txt"
+            Name = "report16DIC2024.pdf"
         };
 
-        string filePath = Application.dataPath + "/CSV/test.csv";
+        string filePath = Application.dataPath + "/Scripts/DataAnalysis/Report16 dic 2024.pdf";
         //string filePath = Path.Combine(Application.dataPath, "test.txt");
         //File.WriteAllText(filePath, "Este es un archivo de prueba.");
 
         using (var stream = new FileStream(filePath, FileMode.Open))
         {
-            var request = service.Files.Create(fileMetadata, stream, "text/csv");
+            var request = service.Files.Create(fileMetadata, stream, "text/pdf");
             request.Fields = "id";
             request.Upload();
 

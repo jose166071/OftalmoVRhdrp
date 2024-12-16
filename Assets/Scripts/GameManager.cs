@@ -5,12 +5,13 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.Rendering.HighDefinition;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
     [SerializeField] private GameEvent falsePositives;
     [SerializeField] private GameEvent falseNegatives;
-
+    [SerializeField] private GameEvent onExamFinished;
     // Start is called before the first frame update
     void Start()
     {
@@ -80,7 +81,10 @@ public class GameManager : MonoBehaviour
 
             //lista[rand].gameObject.SetActive(false);
             //StartCoroutine(Rest(lista[rand].gameObject));
+            
         }
+        onExamFinished.Raise(this, lista);
+        Debug.Log("ExamFinished");
     }
 
     private IEnumerator Rest(GameObject ligth)
@@ -94,6 +98,7 @@ public class GameManager : MonoBehaviour
     {
         float limit = 1f;
         float elapsed = 0f;
+        bool cent = false;
         //Debug.Log("Waiting Response");
         if (stimuli.TryGetComponent<Luminocity>(out Luminocity stimul))
         {
@@ -107,23 +112,37 @@ public class GameManager : MonoBehaviour
                     {
                         stimul.maxLumRegistered = stimul.luminocity;
                         Debug.Log("Stimuli Registered");
+                        cent = true;
                     }
                     else
                     {
-                        if (stimul.db == 1)
+                        if (stimul.dbChange < 1)
                         {
                             stimul.finish = true;
                         }
                         Debug.Log("Failed");
                         stimul.dbChange = stimul.dbChange / 2;
                         stimul.attenuating = !stimul.attenuating;
-                        
+
                     }
                     yield break;
                 }
+
                 elapsed += Time.deltaTime;
                 yield return null;
             }
+            if (cent == false) 
+            {
+                if (stimul.dbChange < 1)
+                {
+                    stimul.finish = true;
+                }
+
+                stimul.dbChange = stimul.dbChange / 2;
+                stimul.attenuating = !stimul.attenuating;
+            }
+
+
             yield break;
         }
 

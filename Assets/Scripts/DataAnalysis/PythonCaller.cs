@@ -5,8 +5,11 @@ using Python.Runtime;
 using System;
 using System.Threading;
 using System.Diagnostics;
+using UnityEngine.SceneManagement;
 public class PythonCaller : MonoBehaviour
 {
+
+    [SerializeField] GameEvent OnAnalysisDone;
     static public void RunScript()
     {
         var p = new Process()
@@ -20,6 +23,7 @@ public class PythonCaller : MonoBehaviour
         };
 
         p.Start();
+        
         /*Runtime.PythonDLL = @"C:\Users\biomedica\AppData\Local\Programs\Python\Python39\python39.dll";
         PythonEngine.Initialize();
 
@@ -98,5 +102,11 @@ public class PythonCaller : MonoBehaviour
                     
             Debug.Log(result);
         }*/
+    }
+
+    public void ChangeScene(Component sender, object data)
+    {
+        OnAnalysisDone.Raise(sender, data); 
+        SceneManager.LoadScene(0);
     }
 }
