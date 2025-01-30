@@ -60,15 +60,14 @@ private static string[] Scopes = { DriveService.Scope.DriveFile };
             return;
         }
 
-        var fileMetadata = new Google.Apis.Drive.v3.Data.File()
-        {
-            Name = "report16DIC2024.pdf"
-        };
-
-        string filePath = Application.dataPath + "/Scripts/DataAnalysis/Report16 dic 2024.pdf";
+        string filePath = Application.dataPath + "/Scripts/DataAnalysis/Report21 ene 2025.pdf";
         //string filePath = Path.Combine(Application.dataPath, "test.txt");
         //File.WriteAllText(filePath, "Este es un archivo de prueba.");
-
+        var fileMetadata = new Google.Apis.Drive.v3.Data.File()
+        {
+            Name = "report21ENE.pdf"
+            
+        };
         using (var stream = new FileStream(filePath, FileMode.Open))
         {
             var request = service.Files.Create(fileMetadata, stream, "text/pdf");

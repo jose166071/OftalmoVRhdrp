@@ -6,8 +6,8 @@ public class ProgramSelection : MonoBehaviour
 {
     public enum Program
     {
-        treinta = 0,
-        veinte = 1,
+        veinteL = 0,
+        veinteR = 1,
         diez = 2
     };
     [SerializeField] private Program program;
@@ -17,8 +17,21 @@ public class ProgramSelection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var programa = program.ToString();
-        SelecProgram.Raise(this, programa);
+        
+        var patientInfo = GameObject.Find("PatientData").GetComponent<DataPatient>();
+        if (patientInfo.eye == "OD") 
+        {
+            program = Program.veinteR;   
+        }
+        else if (patientInfo.eye == "OS")
+        {
+            program = Program.veinteL;
+        }
+        else
+        {
+            
+        }
+        SelecProgram.Raise(this, program.ToString());
 
     }
 

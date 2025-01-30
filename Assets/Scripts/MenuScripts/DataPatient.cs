@@ -13,7 +13,9 @@ public class DataPatient : MonoBehaviour
 
     public string id;
 
-    private int _centinel = 0; 
+    public string eye;
+
+    private string _centinel; 
     // Start is called before the first frame update
     void Awake()
     {
@@ -24,27 +26,34 @@ public class DataPatient : MonoBehaviour
 
     public void SavePatient(Component sender, object data)
     {
+        _centinel = sender.gameObject.name;
+        Debug.Log(_centinel );
         switch (_centinel)
         {
-            case 0:
+            case "Name":
                 if (sender.TryGetComponent<TMP_InputField>(out TMP_InputField patientNameData))
                 {
                     patientName= patientNameData.text;
                 }
-                _centinel++;
                 break;
-            case 1:
+            case "Age":
                 if (sender.TryGetComponent<TMP_InputField>(out TMP_InputField patientAge))
                 {
                     age = patientAge.text;
                 }
-                _centinel++;
+                
                 break;
-            default:
+            case "Id":
                 if (sender.TryGetComponent<TMP_InputField>(out TMP_InputField patientId))
                 {
                     id = patientId.text;
                 }
+                break;
+            case "Ojo Derecho":
+                eye = "OD";
+                break;
+            case "Ojo Izquierdo":
+                eye = "OS";
                 break;
         }
     }

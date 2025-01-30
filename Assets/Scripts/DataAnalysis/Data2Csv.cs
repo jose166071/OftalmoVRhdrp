@@ -99,6 +99,11 @@ public class Data2Csv : MonoBehaviour
                 DateTime dt = DateTime.Now;
                 myPatientList.player[0].date = dt.ToString("dd MMM yyyy");
                 myPatientList.player[0].time = dt.ToString("HH:mm:ss");
+                var patientInfo = GameObject.Find("PatientData").GetComponent<DataPatient>();
+                myPatientList.player[0].age = int.Parse(patientInfo.age);
+                myPatientList.player[0].id = int.Parse(patientInfo.id);
+                myPatientList.player[0].eye = patientInfo.eye;
+
 
                 var patientData = myPatientList.player[0].id +
                                     "," + myPatientList.player[0].eye +

@@ -12,6 +12,9 @@ public class MenuManager : MonoBehaviour
     [SerializeField]private TMP_InputField _PatinetName;
     [SerializeField] private TMP_InputField _age;
     [SerializeField] private TMP_InputField _id;
+    [SerializeField] private Button _derecha;
+    [SerializeField] private Button _izquierda;
+
     [SerializeField] private GameEvent SetData;
     // Start is called before the first frame update
     void Start()
@@ -54,6 +57,16 @@ public class MenuManager : MonoBehaviour
         Debug.Log((_id.text));
         SetData.Raise(_id, _id.text);
     }
-    
-    
+    public void SetEyeIz()
+    {
+        Debug.Log("Set Left");
+        SetData.Raise(_izquierda, "");
+    }
+    public void SetDer()
+    {
+        Debug.Log("Set Rigth");
+        SetData.Raise(_derecha, "");
+    }
+
+
 }

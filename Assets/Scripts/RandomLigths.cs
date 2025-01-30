@@ -9,8 +9,8 @@ using UnityEngine.Rendering;
 public class RandomLigths : MonoBehaviour
 {
     [SerializeField] public List<GameObject> _ligths = new List<GameObject>();
-    [SerializeField] private GameObject _treinta2;
-    [SerializeField] private GameObject _vienticuatro2;
+    [SerializeField] private GameObject _vienticuatro2Rigth;
+    [SerializeField] private GameObject _vienticuatro2Left;
     [SerializeField] private GameObject _diez2;
     [SerializeField] private GameEvent StartTest;
 
@@ -33,13 +33,14 @@ public class RandomLigths : MonoBehaviour
         Debug.Log(data);
         var data2 = data.ToString();
         GameObject a;
-        if (data2 == "treinta")
+        if (data2 == "veinteR")
         {
-            a = _treinta2;
+            Debug.Log(data2);
+            a = _vienticuatro2Rigth;
         }
-        else if (data2 == "veinte")
+        else if (data2 == "veinteL")
         {
-            a = _vienticuatro2;
+            a = _vienticuatro2Left;
         }
         else
         {
@@ -54,7 +55,7 @@ public class RandomLigths : MonoBehaviour
             _ligths.Add(Stimuli.gameObject);
         }
         
-        
         StartTest.Raise(this, "Empezó");
+        Debug.Log("StartTest Raised");
     }
 }
